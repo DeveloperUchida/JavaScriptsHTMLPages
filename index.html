@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>JavaScriptsを使った制作ページ</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h1>どうもこんにちは</h1>
-        <h2>これはJavaScriptsを使ったページです</h2>
-        <button id="btn1">アラートを出すボタン</button>
-        <script src="main.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptsを使った制作ページ</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1>どうもこんにちは</h1>
+<h2>これはJavaScriptsを使ったページです</h2>
+<button id="btn1">アラートを出すボタン</button>
+<script src="Button.js"></script>
+<!----これからはページ送りの機能です--->
+<div class="pagination">
+    <button onclick="loadContent('index.html')">1</button>
+    <button onclick="loadContent('2nd.html')">2</button>
+    <button onclick="loadContent('')">3</button>
+    <script src="main.js"></script>
+</div>
+</body>
 </html>
